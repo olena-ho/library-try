@@ -1,6 +1,6 @@
 import './style.css';
 
-export const HomePage = () => {
+const HomePage = () => {
   return (
     <div className="container">
       <header>
@@ -21,3 +21,5 @@ export const HomePage = () => {
     </div>
   );
 };
+
+export default HomePage;
